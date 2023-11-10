@@ -1,0 +1,346 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+   
+}
+.container{
+    max-width: 1080px;
+    max-height: 1398px;
+    margin:0 auto;
+    text-align: center;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.35);
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.35);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.35);
+}
+.h1{
+    margin-top: -550px;
+    color: white;
+    font-size: 20pt;
+}
+button{
+    color: white;
+    height: 60px;
+    width: 150px;
+    margin-top: 50px;
+    background-color: transparent;
+    border-radius: 30px;
+    border: 2px solid white;
+    font-size: 20pt;
+    font-weight: bold;
+}
+.button{
+    background-color: transparent;
+}
+button:hover{
+    cursor: pointer;
+    color: black;
+    background-color: white;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    cursor: pointer;
+}
+.content{
+    position:relative;
+}
+.language{
+    display: flex;
+    flex-flow: row;
+    color: white;
+    position: absolute;
+    top: 30px;
+    right: 50px;
+}
+.tittle{
+    margin-top: -200px;
+    color: white;
+    font-size: 25pt;
+    line-height: 80px;
+    margin-bottom: 30px;
+}
+.nav{
+    position: absolute;
+    top: 30px;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    align-content: center;
+    margin: 0 auto;
+    justify-items: center;
+    padding-left: 30px;
+}
+.option{
+    display: flex;
+    flex-flow: row;
+    color: white;
+    margin-left: 30px;
+}
+.bullets-quienesomos{
+    background-color: #011E41;
+    height: 692px;
+}
+.first-row{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+.bul{
+    max-width: 430px;
+    color: white;
+}
+.bul1{
+    margin: 0 auto;
+    max-width: 600px;
+    color: white;
+}
+.line{
+    height: 2px;
+    width: 185px;
+    background-color: white;
+}
+.bline{
+    height: 2px;
+    width: 185px;
+    background-color:#011E41;
+}
+.bullets-resumen{
+    color: #011E41;
+    margin-bottom: 8000px;
+}
+.bul-resumen1{
+    display: flex;
+    flex-flow: column;
+    width: 400px;
+    margin-bottom: 100px;
+}
+.bullet-tittle{
+    display: flex;
+    flex-flow: row;
+    margin-bottom: 10px;
+    text-align: left;
+    align-items: center;
+    line-height: 40px;
+
+}
+.v-line{
+    height: 50px;
+    width: 2px;
+    background-color: #A10067;
+    margin-right: 15px;
+}
+.bul-resumen3{
+    margin-left: 70px;
+    max-width: 400px;
+
+}
+.nav2{
+    color: #011E41;
+    position: absolute;
+    top: 5%;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    align-content: center;
+    margin: 0 auto;
+    justify-items: center;
+}
+.hor-line{
+    width: 180px;
+    height: 2px;
+    background-color: #011E41;
+}
+.horline2{
+    width: 180px;
+    height: 2px;
+    background-color: white;
+}
+.tittle2{
+    padding-top: 120px;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    padding-bottom: 50px;
+    align-items: center;
+}
+.tittle4{
+    padding-top: 30px;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    padding-bottom: 50px;
+    align-items: center;
+}
+.table{
+    display: flex;
+    flex-flow: row;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 40px;
+}
+table{
+    font-size: 20px;
+}
+.tl{
+    text-align: left;
+}
+.cell1{
+    text-align: left;
+    width: 310px;
+    padding-top: -10px;
+    margin-top: -10px;
+}
+.numb{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+table.vehiculo {
+    background-color: #FFFFFF;
+    width: 60%;
+    text-align: center;
+  }
+  table.vehiculo td, table.vehiculo th {
+    border: 1px solid #BABABA;
+    padding: 4px 4px;
+  }
+  table.vehiculo tbody td {
+    font-size: 18pt;
+  }
+  table.vehiculo thead {
+    background: #485CC7;
+    background: -moz-linear-gradient(top, #7685d5 0%, #5a6ccc 66%, #485CC7 100%);
+    background: -webkit-linear-gradient(top, #7685d5 0%, #5a6ccc 66%, #485CC7 100%);
+    background: linear-gradient(to bottom, #7685d5 0%, #5a6ccc 66%, #485CC7 100%);
+  }
+  table.vehiculo thead th {
+    font-size: 20px;
+    font-weight: bold;
+    color: #F0F0F0;
+    text-align: center;  
+  }
+.table-txt{
+    width: 40%;
+    padding-left: 30px;
+    text-align: left;
+    font-size: 14pt;
+}  
+  .comparacion{
+    height: 289px;
+    background-color: #F0F0F0;
+    color: black;
+    padding-top: 30px;
+    margin-top: 50px;
+    font-size: 18pt;
+  }
+.comp-row{
+    display: flex;
+    flex-flow: row;
+    margin: 0 auto;
+    justify-content: space-around;
+    padding-top: 30px;
+    margin-bottom: 30px;
+} 
+.line-comp{
+    height: 120px;
+    background-color: black;
+    width: 2px;
+}
+.porcentaje{
+    text-align: right;
+    margin-right: 1px;
+}
+.phl{
+    width: 300px;
+    height: 2px;
+    background-color: white;
+}
+.prod-rob{
+    display: flex;
+    flex-flow: row;
+    margin: 0 auto;
+    justify-content: space-around;
+    margin-top: 80px;
+    margin-bottom: 150px;
+}
+.estado{
+    display: flex;
+    flex-flow: row;
+    margin: 0 auto; 
+    justify-content: space-around;
+}
+.separador{
+    width: 85%;
+    height: 1px;
+    background-color: #011E41;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin: 0 auto;
+}
+.last-edos{
+    display:flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content:space-between;
+    margin-top: 20px;
+    text-align: left;
+    margin-left: 35px;
+    margin-right: 80px;
+}
+.ledo{
+    margin-left: 45px;
+    margin-top: 10px;
+}
+.edo-tittle{
+    margin-left: 30px;
+    margin-top: 5px;
+}
+.carreteras{
+    text-align: left;
+    width: 560px;
+    margin-bottom: 8px;
+}
+.tablemap{
+    position: absolute;
+    width: 250px;
+    top:560px;
+    right: 50px;
+}
+.tablemap2{
+    position: absolute;
+    width: 250px;
+    top:20%;
+    right: 50px;
+}
+.edo{
+    display: flex;
+    flex-flow: row;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-around;
+    text-align: left;
+    padding-right: 50px;
+}
+@font-face {
+    font-family: "Poppins-Black";
+    src: url(fonts/Poppins-Black.ttf);
+}
+.black{
+    font-family: "Poppins-Black";
+    src: url(fonts/Poppins-Black.ttf);
+}
+.tittle3{
+    margin-top: 70px;
+    margin-bottom: 70px;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.lastedo{
+    width: 90%;
+}
